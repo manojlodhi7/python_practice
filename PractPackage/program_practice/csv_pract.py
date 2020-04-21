@@ -71,7 +71,7 @@
 import csv
 # l1 = list()
 def csv_reader():
-    with open("C:\\Users\\mlodhi\\OneDrive - Nice Systems Ltd\\Desktop\\Python Pract\\sample.csv",  encoding='utf-8-sig') as f:
+    with open("C:\\Users\\mlodhi\\OneDrive - Nice Systems Ltd\\Desktop\\Python Pract\\python_practice\\PractPackage\\files\\sample.csv",  encoding='utf-8-sig') as f:
         data = csv.DictReader(f, delimiter=',')
         dt = [dict(d) for d in data]
         columns = tuple(dt[0].keys())

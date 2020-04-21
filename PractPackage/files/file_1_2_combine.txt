@@ -1,0 +1,30 @@
+1} Call API - Execute Repair Query
+ GLUE_JOB_MAX_NUMBER_OF_WORKERS_STANDARD = 100
+	a} We got Queryid
+ GLUE_JOB_MAX_NUMBER_OF_WORKERS_G1X = 299
+		1] Call API - Get Query Status
+ GLUE_JOB_MAX_NUMBER_OF_WORKERS_G2X = 149
+			a] Got query status as QUEUED - #Manoj ACTIVE
+ GLUE_JOB_MIN_NUMBER_OF_WORKERS_STANDARD = 2
+			b] Got query status as RUNNING - #Manoj ACTIVE
+ GLUE_JOB_MIN_NUMBER_OF_WORKERS_G1X = 2
+			c] Got query status as SUCCESS - #Manoj ACTIVE
+ GLUE_JOB_MIN_NUMBER_OF_WORKERS_G2X = 21} Call API - Execute Repair Query
+ GLUE_JOB_MAX_NUMBER_OF_WORKERS_STANDARD = 100
+	a} We got Queryid
+ GLUE_JOB_MAX_NUMBER_OF_WORKERS_G1X = 299
+		1] Call API - Get Query Status
+ GLUE_JOB_MAX_NUMBER_OF_WORKERS_G2X = 149
+			a] Got query status as QUEUED - #Manoj ACTIVE
+ GLUE_JOB_MIN_NUMBER_OF_WORKERS_STANDARD = 2
+			b] Got query status as RUNNING - #Manoj ACTIVE
+ GLUE_JOB_MIN_NUMBER_OF_WORKERS_G1X = 2
+			c] Got query status as SUCCESS - #Manoj ACTIVE
+ GLUE_JOB_MIN_NUMBER_OF_WORKERS_G2X = 2				1) Call API - Get Query Result
+					a) Got Query Result - #Manoj As per result
+					b)  API Call of QS failed, means got response other than 200. - #Manoj ACTIVE
+
+			d] Got query status as FAILED - #Manoj FAILED
+			e] API Call of QS failed, means got response other than 200. - #Manoj ACTIVE
+
+	b} API Call of QS failed, means got response other than 200. - #Manoj ACTIVE

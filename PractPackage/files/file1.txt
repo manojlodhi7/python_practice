@@ -1,0 +1,14 @@
+1} Call API - Execute Repair Query
+	a} We got Queryid
+		1] Call API - Get Query Status
+			a] Got query status as QUEUED - #Manoj ACTIVE
+			b] Got query status as RUNNING - #Manoj ACTIVE
+			c] Got query status as SUCCESS - #Manoj ACTIVE
+				1) Call API - Get Query Result
+					a) Got Query Result - #Manoj As per result
+					b)  API Call of QS failed, means got response other than 200. - #Manoj ACTIVE
+
+			d] Got query status as FAILED - #Manoj FAILED
+			e] API Call of QS failed, means got response other than 200. - #Manoj ACTIVE
+
+	b} API Call of QS failed, means got response other than 200. - #Manoj ACTIVE
